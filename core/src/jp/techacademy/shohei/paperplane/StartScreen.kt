@@ -1,6 +1,7 @@
-package jp.techacademy.shohei.jumpactiongame
+package jp.techacademy.shohei.paperplane
 
 import com.badlogic.gdx.Gdx
+import com.badlogic.gdx.scenes.scene2d.ui.Button
 import com.badlogic.gdx.ScreenAdapter
 import com.badlogic.gdx.graphics.GL20
 import com.badlogic.gdx.graphics.OrthographicCamera
@@ -11,7 +12,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion
 import com.badlogic.gdx.utils.Align
 import com.badlogic.gdx.utils.viewport.FitViewport
 
-class StartScreen(private val mGame: JumpActionGame, private val mScore: Int) : ScreenAdapter() {
+class StartScreen(private val mGame: PaperPlane, private val mScore: Int) : ScreenAdapter() {
     companion object {
         internal val GUI_WIDTH = 320f
         internal val GUI_HEIGHT = 480f
@@ -28,7 +29,7 @@ class StartScreen(private val mGame: JumpActionGame, private val mScore: Int) : 
         } // ←追加する
 
         // 背景の準備
-        val bgTexture = Texture("resultback.png")
+        val bgTexture = Texture("background_sky.png")
         mBg = Sprite(TextureRegion(bgTexture, 0, 0, 540, 810))
         mBg.setSize(GUI_WIDTH, GUI_HEIGHT)
         mBg.setPosition(0f, 0f)

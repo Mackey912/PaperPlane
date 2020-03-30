@@ -17,7 +17,7 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "jp.techacademy.shohei.jumpactiongame"
+        applicationId "jp.techacademy.shohei.paperplane"
         minSdkVersion 9
         targetSdkVersion 29
         versionCode 1
@@ -86,7 +86,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'jp.techacademy.shohei.jumpactiongame/jp.techacademy.shohei.jumpactiongame.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'jp.techacademy.shohei.paperplane/jp.techacademy.shohei.paperplane.AndroidLauncher'
 }
 
 eclipse.project.name = appName + "-android"

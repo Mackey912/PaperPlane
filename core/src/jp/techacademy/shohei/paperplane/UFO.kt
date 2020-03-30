@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.jumpactiongame
+package jp.techacademy.shohei.paperplane
 
 import com.badlogic.gdx.graphics.Texture
 

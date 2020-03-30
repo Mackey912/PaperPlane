@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.jumpactiongame
+package jp.techacademy.shohei.paperplane
 
 import android.graphics.Color
 import android.os.Bundle
@@ -33,7 +33,7 @@ class AndroidLauncher : AndroidApplication(), ActivityRequestHandler {
         super.onCreate(savedInstanceState)
 
         val config = AndroidApplicationConfiguration()
-        val gameView = initializeForView(JumpActionGame(this), config)
+        val gameView = initializeForView(PaperPlane(this), config)
 
         mAdView = AdView(this)
         mAdView.adSize = AdSize.BANNER

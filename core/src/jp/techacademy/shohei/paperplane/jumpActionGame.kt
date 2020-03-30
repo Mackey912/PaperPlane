@@ -1,9 +1,9 @@
-package jp.techacademy.shohei.jumpactiongame
+package jp.techacademy.shohei.paperplane
 
 import com.badlogic.gdx.Game
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 
-class JumpActionGame(val mRequestHandler: ActivityRequestHandler) : Game() {
+class PaperPlane(val mRequestHandler: ActivityRequestHandler) : Game() {
     lateinit var batch: SpriteBatch
 
     override fun create() {
