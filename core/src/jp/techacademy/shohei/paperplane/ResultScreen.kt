@@ -24,7 +24,7 @@ class ResultScreen(private val mGame: PaperPlane, private val mScore: Int) : Scr
 
     init {
         if (mGame.mRequestHandler != null) { // ←追加する
-            mGame.mRequestHandler.showAds(true) // ←追加する
+            mGame.mRequestHandler.showAds(false) // ←追加する
         } // ←追加する
 
         // 背景の準備

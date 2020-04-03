@@ -10,6 +10,6 @@ class PaperPlane(val mRequestHandler: ActivityRequestHandler) : Game() {
         batch = SpriteBatch()
 
         // GameScreenを表示する
-        setScreen(GameScreen(this))
+        setScreen(StartScreen(this))
     }
 }
