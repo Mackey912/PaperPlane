@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.paperplane
+package jp.app.shohei.paperplane
 
 import android.graphics.Color
 import android.os.Bundle
