@@ -135,7 +135,7 @@ class GameScreen(private val mGame: PaperPlane) : ScreenAdapter() {
         mHighScore=0
 
         //ハイスコアをPreferencesから取得する
-        mPrefs=Gdx.app.getPreferences("jp.techacademy.shohei.paperplane")
+        mPrefs=Gdx.app.getPreferences("jp.app.shohei.paperplane")
         mHighScore=mPrefs.getInteger("HIGHSCORE",0)
         sound_background.setVolume(0.2f)
         sound_background.setLooping(true)

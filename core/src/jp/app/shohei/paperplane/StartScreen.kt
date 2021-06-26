@@ -61,7 +61,7 @@ class StartScreen(private val mGame: PaperPlane) : ScreenAdapter() {
         mFont_title = BitmapFont(Gdx.files.internal("font.fnt"), Gdx.files.internal("font.png"), false)
         mFont_title.setColor(Color.GRAY)
         mHighScore=0
-        mPrefs=Gdx.app.getPreferences("jp.techacademy.shohei.paperplane")
+        mPrefs=Gdx.app.getPreferences("jp.app.shohei.paperplane")
 
         sound_startmenu.setVolume(0.2f)
         sound_startmenu.setLooping(true)
