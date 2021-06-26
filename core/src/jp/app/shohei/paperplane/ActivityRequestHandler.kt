@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.paperplane
+package jp.app.shohei.paperplane
 
 interface ActivityRequestHandler {
     fun showAds(show: Boolean)

@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.paperplane
+package jp.app.shohei.paperplane
 
 import com.badlogic.gdx.graphics.Texture
 

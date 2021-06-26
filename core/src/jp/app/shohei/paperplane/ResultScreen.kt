@@ -1,4 +1,4 @@
-package jp.techacademy.shohei.paperplane
+package jp.app.shohei.paperplane
 
 import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.ScreenAdapter
